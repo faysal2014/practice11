@@ -1,0 +1,34 @@
+body{
+    font-family: 'Mulish', sans-serif;
+    background-color: ghostwhite;
+    margin: 0px;
+}
+.head{
+    overflow: hidden;
+    background-image: url(images/pexels-faik-akmd-1025469.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    background-size: cover;
+}
+.top{
+    float:right;
+}
+.linktop{
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    background-color: rgb(17, 17, 17);
+    border-radius: 8px;
+}
+.linktop:hover{
+    background-color: rgb(240, 240, 240);
+    color: rgb(24, 22, 22);
+}
