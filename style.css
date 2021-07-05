@@ -24,12 +24,15 @@ body{
 .hire{
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: whitesmoke;
     background-color: rgb(87, 90, 255);
     padding: 10px;
     border-radius: 10px;
     transition: .3s ease-in-out;
     box-shadow: 5px 5px 10px rgb(47, 48, 54);
+}
+.hire a{
+    text-decoration: none;
+    color: white;
 }
 .hire:hover{
     background-color: rgb(209, 17, 56);
