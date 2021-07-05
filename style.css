@@ -86,3 +86,44 @@ body{
 .td02:hover{
     transform: scale(1.2);
 }
+.myself{
+    text-align: center;
+    color: rgb(19, 19, 29);
+    margin-bottom: 50px;
+    transition: 0.3s ease-in-out;
+}
+.myself:hover{
+    color: crimson;
+}
+.sec03{
+    padding: 5%;
+    background-image: url(images/banner-1557834.jpg);
+    margin-bottom: 60px;
+}
+.tablle03 td{
+    padding: 50px;
+    text-align: justify;
+    background-color: gainsboro;
+    border-radius: 20px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    background-size: cover;
+    transition: .5s ease-out;
+}
+.tablle03 td:hover{
+    transform: scale(1.1);
+    background-color: ghostwhite;
+}
+footer{
+    text-align: center;
+    background-color: rgb(41, 41, 44);
+    color: white;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
