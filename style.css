@@ -15,7 +15,25 @@ body{
     background-size: cover;
 }
 .top{
-    float:right;
+    float:left;
+    padding-left: 60px;
+}
+.side{
+    float: right;
+}
+.hire{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    background-color: rgb(87, 90, 255);
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    box-shadow: 5px 5px 10px rgb(47, 48, 54);
+}
+.hire:hover{
+    background-color: rgb(209, 17, 56);
+    transform: scale(1.2);
 }
 .linktop{
     padding: 5px;
@@ -27,8 +45,41 @@ body{
     color: whitesmoke;
     background-color: rgb(17, 17, 17);
     border-radius: 8px;
+    transition: .2s ease-out;
 }
 .linktop:hover{
-    background-color: rgb(240, 240, 240);
-    color: rgb(24, 22, 22);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.sec02{
+    padding: 5%;
+    margin-bottom: 100px;
+}
+.td01{
+    background-color: rgb(29, 39, 65);
+    padding: 4%;
+    text-align: justify;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px darkgray;
+    color: white;
+}
+.myimg{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgb(2, 2, 2);
+}
+.td01 {
+    transition: .5s ease;
+}
+.td01:hover{
+    transform: scale(1.1);
+}
+.td02 {
+    transition: .5s ease;
+}
+.td02:hover{
+    transform: scale(1.2);
 }
